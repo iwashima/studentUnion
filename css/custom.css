@@ -1,0 +1,13 @@
+body{
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+#main {
+	border: 2px solid #F2F2F2;
+	background-color: #F2F2F2;
+	border-radius:3px;
+	opacity:0.8;
+	min-height: 400px;
+	filter:alpha(opacity=80); /* For IE8 and earlier */	
+}
