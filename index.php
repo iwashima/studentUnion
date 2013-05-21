@@ -47,7 +47,14 @@
 					<?php include("sideMenu.php");	?>
 					
 						<div id="main">
-
+							
+							<p>
+								<br /><br /><br />
+								<h4>Public content</h4><br />
+								Home page for news and other primary information<br />
+								Some pics, some links, some videos
+							</p>	
+							
 						</div>
 					</div>
 				</div>

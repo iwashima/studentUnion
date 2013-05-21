@@ -13,7 +13,7 @@
 				
 				<?php } else { ?>
 					
-					<li <?php if ( $menu == "register" ) echo "class=\"active\""; ?> ><a href="register.php">Register</a></li>
+					<!-- <li <?php // if ( $menu == "register" ) echo "class=\"active\""; ?> ><a href="register.php">Register</a></li> -->
 					<li <?php if ( $menu == "login" )    echo "class=\"active\""; ?> ><a href="login.php"   >Login   </a></li>
 				
 				<?php } ?>

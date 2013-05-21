@@ -47,13 +47,46 @@
 					<?php include("sideMenu.php");	?>
 					
 						<div id="main">
+							<div class="container-fluid">
+								<div class="row-fluid">
+									<div class="span4">
+										<h5>My Tweets</h5>
+										<p>
+											<a class="twitter-timeline" height="350" 
+													href="https://twitter.com/CCT_2010619"  
+													data-widget-id="319033873705082880">Tweets by @CCT_2010619
+											</a>
+										</p>
+									</div><!-- .span4 -->
+
+									<div class="span4">
+										<h5>Single hashtag</h5>
+										<p>
+											<a class="twitter-timeline" height="350"
+													href="https://twitter.com/search?q=%23pfsense"  
+													data-widget-id="319038351271399424">Tweets about "#pfsense"
+											</a>
+										</p>
+									</div><!-- .span4 -->
+
+									<div class="span4">
+										<h5>List of authors</h5>
+										<p>
+											<a class="twitter-timeline" height="350"
+													href="https://twitter.com/CCT_2010619/pfsense"  
+													data-widget-id="319042589905002496">Tweets from @CCT_2010619/pfsense
+											</a>
+										</p>
+									</div><!-- .span4 -->
+								</div>
+							</div><!-- .row -->
 
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 		
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 

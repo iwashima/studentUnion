@@ -47,7 +47,14 @@
 					<?php include("sideMenu.php");	?>
 					
 						<div id="main">
-
+						
+							<p>
+								<br /><br /><br />
+								<h4>Public content</h4><br />
+								Information about the Student Union such as:<br />
+								Who we are, what we do and where we are.
+							</p>	
+							
 						</div>
 					</div>
 				</div>
