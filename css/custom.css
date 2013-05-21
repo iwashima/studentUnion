@@ -8,6 +8,7 @@ body{
 	background-color: #F2F2F2;
 	border-radius:5px;
 	min-height: 400px;
+	text-align: center;
 }
 
 .sidebar-nav  > .well {
@@ -18,53 +19,20 @@ body{
 
 #login-table{
 	margin: auto;
-	border: 1px solid black;
-	width: 50%;
-	
+	margin-top: 30px;
 }
 
-.fb_login {
-  display: inline-block;
-  width: auto;
-  height: 46px;
-  padding: 0 15px 0 50px;
-  font-weight: bold;
-  color: #fff !important;
-  text-shadow: 0 -1px 0 #395286;
-  font-size: 16px;
-  line-height: 46px;
-  margin: 4px;
-  background: url(./facebook.png);
-  border: 1px solid #3a5ba0;
-  border-top-color: #6685c6; 
-     -moz-border-radius: 5px; 
-  -webkit-border-radius: 5px;
-          border-radius: 5px;
-}
-.fb_login:hover {
-  border-top-color: #3a5ba0;
-  text-decoration: none;
+.btn-group > .btn {
+	min-width: 250px;
+	text-align: left;
 }
 
-.twitter_login {
-  display: inline-block;
-  width: auto;
-  height: 46px;
-  padding: 0 15px 0 50px;
-  font-family: arial, helvetica, sans-serif;
-  font-weight: bold;
-  color: #fff !important;
-  text-shadow: 0 -1px 0 #367dae;
-  font-size: 16px;
-  line-height: 46px;
-  margin: 4px;
-  background: url(./img/twitter.png) no-repeat 0 0;
-  border: 1px solid #3d87bc;
-     -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-          border-radius: 5px;
+#profile {
+	max-width: 50%;
+	margin: auto;
+	margin-top: 30px;
 }
-.twitter_login:hover {
-  border-color: #0b3350;
-  text-decoration: none;
+
+.controls{
+	text-align: left;
 }

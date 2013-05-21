@@ -1,21 +1,6 @@
 <?php
 
-/* ****************************************
- * Author: Conor O'Reilly
- * Date: 
- *
- * Ref: www.140dev.com
- *
- * Put your tokens in as follows
- *
- 	$consumer_key = 'CONSUMER KEY';
-	$consumer_secret = 'CONSUMER SECRET';
-	$user_token = 'USER TOKEN';
-	$user_secret = 'USER SECRET';
-
- * *************************************** */
-
-$consumer_key = '';
-$consumer_secret = '';
-$user_token = '';
-$user_secret = '';
+$consumer_key = 'TRhLU9CWRsDUJg2PrFRntg';
+$consumer_secret = 'XhOyNEjs8Cyypbh79jJCaL2qxYFPR9XtMB0JbNeQ';
+$user_token = '1322159328-m30BtBNeonLOmKOfDpskzjmZ4scZTLWHedclzyc';
+$user_secret = 'gx1pROYgBpVVMRmuO6d49HUrTrUIlQ23C8SitBHYAs';

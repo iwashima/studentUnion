@@ -36,39 +36,58 @@
 					<div class="span12">
 						<div id="main">
 							
-							<form action="validate.php" method="POST"> 
+							<?php if ( isset($_GET) && $_GET["err"] != "" ) { echo "<h5 style=\"color: red;\">Incorrect Username / Password !</h5>"; } ?>
+							
+							<form name="login" action="validate.php" method="POST"> 
 
-								<table id="login-table" border=1> 
+								<table id="login-table"> 
 								<tr>
 									<th> Username:</th>
 									<td>
-										<input type="text" id="username" name="username" />
+										<input type="text" id="username" name="username" placeholder="Username - test" />
 									</td>
 								</tr>
 
 								<tr>
 									<th> Password:</th>
 									<td>
-										<input type="password" id="password" name="password" />
+										<input type="password" id="password" name="password" placeholder="Password - test" />
 									</td>
 								</tr>
-								
 								<tr>
 									<th colspan="2"> 
-										<input type="submit" value="Login" />
+										<a href="#" onclick="document.forms[0].submit(); return false;" class="btn btn-primary btn-medium">
+											Login using DB
+										</a>
+									</th>	
+								</tr>
+								<tr>
+									<th colspan="2">
+										<br />
+										OR
+										<br />&nbsp
 									</th>
 								</tr>
 								<tr>
-									
-								</tr>	
+									<th colspan="3">
+									<div class="btn-group btn-group-vertical"</div>
+										<a href="login_facebook.php" class="btn btn-primary btn-medium">
+											<img src="./img/facebook.png" /> Login using Facebook
+										</a>
+
+										<a href="login_twitter.php" class="btn btn-primary btn-medium">
+											<img src="./img/twitter.png" /> Login using Twitter
+										</a>
+
+										<a href="login_google.php" class="btn btn-primary btn-medium">
+											<img src="./img/google.png" /> Login using Google
+										</a>
+									</th>
+								</tr>								
 							</form>
 
 						</div>
 					</div>
-												<div>
-								<a class="fb_login" href="login_facebook.php">Login using Facebook</a>
-								<a class="twitter_login" href="login_twitter.php">Login using Twitter</a>
-							</div>
 				</div>
 			</div>
 		</div>

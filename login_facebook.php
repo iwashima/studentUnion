@@ -65,11 +65,13 @@ if($_SESSION['state'] && ($_SESSION['state'] === $_REQUEST['state']))
 // We set our session logged in parameter and go to the private homepage
 
 // version 1
-  echo("Hello " . $user->name);
+  // echo("Hello " . print_r($user) . $user->id . $user);
 
 //version 2
+	$_SESSION["logginTool"]="Facebook";
     $_SESSION["loggedIn"]=1;
 	$_SESSION["username"]=$user->name;
+	$_SESSION["ID"] = $user->id;
 	
     header("Location: index.php");
     

@@ -27,7 +27,7 @@
 		
 						while( $resultItem = mysql_fetch_row($result) ) {
 						
-							echo "<li";
+							echo "<li ";
 							
 							if ( $menu == $resultItem[1] ) { echo "class=\"active\" "; }
 
